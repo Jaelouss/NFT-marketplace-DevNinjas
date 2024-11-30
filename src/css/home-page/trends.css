@@ -1,0 +1,70 @@
+.trends-title {
+  margin-bottom: 10px;
+}
+.trends-text {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.trends-card-list {
+  margin-bottom: 15px;
+}
+
+.trends-link-to-library {
+  border-radius: 20px;
+  padding: 36px 24px;
+  background-color: #a259ff;
+}
+
+.trends-picture-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.trends-picture-list-item:first-child {
+  width: 315px;
+}
+.trends-picture-list-item:not(:first-child) .trends-picture-list-item-image {
+  width: 95px;
+  flex-basis: calc((100%-30) / 3);
+}
+
+.trends-undertitle {
+  margin-bottom: 10px;
+}
+.trends-container-user {
+  display: flex;
+  gap: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .trends-pc-display,
+  .trends-tab-display {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1279px) {
+  .trends-pc-display {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .trends-card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+  .trends-card-list-item {
+    max-width: 330px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .trends-text {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+}
