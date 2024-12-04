@@ -1,17 +1,26 @@
 .trends-title {
+  font-size: 28px;
   margin-bottom: 10px;
+}
+.trends-container-card {
+  width: 315px;
+}
+.trends-container-title {
+  margin-bottom: 40px;
 }
 .trends-text {
   font-size: 16px;
-  margin-bottom: 40px;
 }
 .trends-card-list {
   margin-bottom: 15px;
 }
 
 .trends-link-to-library {
+  font-family: 'Space Mono', sans-serif;
+  /* font-weight: 700; при підключенні стає навпаки тоншого розміру */
+  color: #fff;
   border-radius: 20px;
-  padding: 36px 24px;
+  padding: 36px 22px;
   background-color: #a259ff;
 }
 
@@ -27,18 +36,21 @@
 }
 .trends-picture-list-item:not(:first-child) .trends-picture-list-item-image {
   width: 95px;
-  flex-basis: calc((100%-30) / 3);
 }
 
 .trends-undertitle {
   margin-bottom: 10px;
+  font-weight: 600;
 }
 .trends-container-user {
   display: flex;
   gap: 12px;
 }
+.trends-user-name {
+  font-size: 16px;
+}
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 833px) {
   .trends-pc-display,
   .trends-tab-display {
     display: none;
@@ -50,21 +62,38 @@
     display: none;
   }
 }
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 834px) {
+  .trends-container-card {
+    width: 390px;
+  }
   .trends-card-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
   }
+  .trends-link-to-library {
+    padding: 32px 16px;
+  }
+
   .trends-card-list-item {
     max-width: 330px;
+  }
+
+  .trends-link-to-library {
+    font-size: 22px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
+  .trends-title {
+    font-size: 38px;
+  }
   .trends-text {
-    font-size: 16px;
+    font-size: 22px;
+  }
+  .trends-container-title {
     margin-bottom: 60px;
   }
 }
