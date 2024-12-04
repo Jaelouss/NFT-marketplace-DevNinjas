@@ -42,6 +42,9 @@
   margin-bottom: 10px;
   font-weight: 600;
 }
+.trends-user-link {
+  margin-bottom: 10px;
+}
 .trends-container-user {
   display: flex;
   gap: 12px;
@@ -50,22 +53,17 @@
   font-size: 16px;
 }
 
-@media only screen and (max-width: 833px) {
-  .trends-pc-display,
-  .trends-tab-display {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1279px) {
-  .trends-pc-display {
-    display: none;
-  }
+.trends-pc-display,
+.trends-tab-display {
+  display: none;
 }
 
 @media only screen and (min-width: 834px) {
   .trends-container-card {
     width: 390px;
+  }
+  .trends-tab-display {
+    display: flex;
   }
   .trends-card-list {
     display: flex;
@@ -87,6 +85,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .trends-pc-display {
+    display: flex;
+  }
   .trends-title {
     font-size: 38px;
   }
