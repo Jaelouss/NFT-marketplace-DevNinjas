@@ -31,6 +31,12 @@
 .hero-item{
     min-width: 85px;
 }
+.hero-item-text-total{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
 .hero-space-bottom{
     background-color: #3b3b3b;
     padding: 22px 20px;
@@ -39,12 +45,11 @@
     margin-top: -8px;
 }
 .hero-space-bottom-walking{
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .hero-space-bottom-animakid {
     font-size: 16px;
 }
-
 .hero-avatar{
     min-width: 24px;
     min-height: 24px;
@@ -53,18 +58,22 @@ margin-bottom: 10px;
     display: flex;
     gap: 12px;
 }
+.hero-space-p {
+    font-weight: 700;
+    font-size: 22px;    
+}
  /* ======================== 834 ================================ */
 @media (width>=834px) {
-.wrapper {
+.hero-wrapper {
     display: flex;
     flex-wrap: wrap;    
     gap: 30px;
     }
-    .hero-img{
-        width: 330px;
-        height: 221px;
+.hero-img{
+    width: 330px;
+    height: 221px;
     }
-    .hero-art {
+.hero-art {
     max-width: 330px;
 }
 .hero-price{
@@ -85,7 +94,6 @@ margin-bottom: 10px;
 } 
 /* =========================== 1280 ============================== */
 @media (width>=1280px) { 
-
 .hero-img{
     width: 510px;
     height: 401px;
@@ -101,7 +109,7 @@ margin-bottom: 10px;
     font-size: 22px;
     text-transform: capitalize;   
 } 
-.space-p {
+.hero-space-p {
     font-size: 28px;
     width: 150px;
 }
@@ -117,7 +125,7 @@ margin-bottom: 10px;
 .hero-item{
     width: 150px;
 }
-h4{
+.hero-item-text-total {
     font-size: 23px;
     line-height: 1.6;
 }
