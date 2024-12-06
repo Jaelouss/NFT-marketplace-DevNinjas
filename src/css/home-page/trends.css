@@ -17,7 +17,8 @@
 
 .trends-link-to-library {
   font-family: 'Space Mono', sans-serif;
-  /* font-weight: 700; при підключенні стає навпаки тоншого розміру */
+  font-weight: 700;
+  /* через нього цифри тонші, без нього як на макеті */
   color: #fff;
   border-radius: 20px;
   padding: 36px 22px;
@@ -73,14 +74,11 @@
   }
   .trends-link-to-library {
     padding: 32px 16px;
+    font-size: 22px;
   }
 
   .trends-card-list-item {
     max-width: 330px;
-  }
-
-  .trends-link-to-library {
-    font-size: 22px;
   }
 }
 
