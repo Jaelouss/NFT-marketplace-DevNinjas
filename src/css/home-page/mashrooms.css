@@ -1,0 +1,181 @@
+.mashrooms {
+  background-image: linear-gradient(
+      180deg,
+      rgba(162, 89, 255, 0) 0%,
+      #a259ff 100%
+    ),
+    url(../../img/mob/home-page/mashrooms/Screen=Mobile.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+@media screen and (min-resolution: 2dppx) {
+  .mashroom-container {
+    background-image: linear-gradient(
+        180deg,
+        rgba(162, 89, 255, 0) 0%,
+        #a259ff 100%
+      ),
+      url(../../img/mob/home-page/mashrooms/Screen=Mobile-@2x.webp);
+  }
+}
+.avatar-link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 151px;
+  height: 44px;
+  background: #3b3b3b;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.clock-box {
+  box-sizing: border-box;
+  border-radius: 20px;
+  max-width: 315px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background-color: rgba(59, 59, 59, 0.5);
+  margin-top: 30px;
+  padding: 30px 30px;
+  margin-bottom: 30px;
+}
+
+.clock-text {
+  font-size: 12px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.time {
+  width: 100%;
+  max-width: 255px;
+  white-space: nowrap;
+}
+
+.timing {
+  display: flex;
+  gap: 38px;
+  margin-top: 5px;
+}
+.timing-item {
+  font-size: 12px;
+  line-height: 1.1;
+}
+.nft-link {
+  border-radius: 20px;
+  padding: 22px 50px;
+  width: 100%;
+  max-width: 315px;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+.icone-eye {
+  fill: #a259ff;
+}
+.nft-link-text {
+  font-weight: 600;
+  text-align: center;
+  color: #2b2b2b;
+}
+
+@media only screen and (min-width: 320px) {
+  .mashrooms {
+    background-image: linear-gradient(
+        180deg,
+        rgba(162, 89, 255, 0) 0%,
+        #a259ff 100%
+      ),
+      url(../../img/tab/home-page/mashrooms/Screen=Tablet.webp);
+  }
+}
+
+@media only screen and (min-width: 834px) {
+  .mashrooms {
+    padding: 60px 0;
+    background-image: linear-gradient(
+        180deg,
+        rgba(162, 89, 255, 0) 0%,
+        #a259ff 100%
+      ),
+      url(../../img/tab/home-page/mashrooms/Screen=Tablet.webp);
+  }
+  @media only screen and (min-resolution: 2dppx) {
+    .mashrooms {
+      background-image: linear-gradient(
+          180deg,
+          rgba(162, 89, 255, 0) 0%,
+          #a259ff 100%
+        ),
+        url(../../img/tab/home-page/mashrooms/Screen=Tablet-@2x.webp);
+    }
+  }
+  .mashrooms-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 0 82px;
+  }
+  .avatar-link {
+    margin-top: 360px;
+  }
+  .clock-box {
+    position: absolute;
+    right: 82px;
+    bottom: 0;
+    max-width: 295px;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  .nft-link {
+    max-width: 198px;
+    margin-top: auto;
+    margin-right: auto;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mashrooms {
+    padding: 60px 0;
+    background-image: linear-gradient(
+        180deg,
+        rgba(162, 89, 255, 0) 0%,
+        #a259ff 100%
+      ),
+      url(../../img/pc/home-page/mashrooms/Screen-deckstop.webp);
+  }
+  @media only screen and (min-resolution: 2dppx) {
+    .mashrooms {
+      background-image: linear-gradient(
+          180deg,
+          rgba(162, 89, 255, 0) 0%,
+          #a259ff 100%
+        ),
+        url(../../img/pc/home-page/mashrooms/Screen-deckstop-@2x.webp);
+    }
+  }
+  .title-mashrooms {
+    font-size: 51px;
+    line-height: 1.1;
+  }
+  .clock-box {
+    right: 115px;
+  }
+}
