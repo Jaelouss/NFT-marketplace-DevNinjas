@@ -1,0 +1,152 @@
+.title-discovery {
+  margin-bottom: 10px;
+}
+.subtitle-discovery {
+  margin-bottom: 40px;
+}
+.nft-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card {
+  padding: 20px 20px 25px 20px;
+  width: 100%;
+  max-width: 315px;
+  border-radius: 0 0 20px 20px;
+  background-color: #3b3b3b;
+}
+.avatar-card {
+  margin-top: 5px;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+  align-items: center;
+}
+.space-span-card {
+  font-size: 12px;
+  line-height: 1.1;
+}
+.space-p-card {
+  font-size: 12px;
+  line-height: 1.1;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.card-info-two {
+  display: flex;
+  justify-content: space-between;
+}
+.see-all {
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  padding: 0px 50px;
+  width: 315px;
+  height: 60px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 114px;
+
+  flex-direction: row;
+
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.h3-link {
+  font-size: 16px;
+  text-align: center;
+  white-space: nowrap;
+}
+.icone-see-all {
+  fill: #a259ff;
+}
+.nft-avatar,
+.text-card-nft {
+  display: none;
+  width: 24px;
+  height: 24px;
+}
+.avatar-of-card {
+  width: 24px;
+  height: 24px;
+}
+
+@media only screen and (min-width: 834px) {
+  .discovery-container {
+    position: relative;
+  }
+  .see-all {
+    position: absolute;
+    width: 187px;
+    top: 0;
+    right: 72px;
+    margin: 0;
+  }
+  .nft-item-astro {
+    display: none;
+  }
+  .img-galaxy {
+    width: 330px;
+    height: 295px;
+  }
+  .card {
+    max-width: 330px;
+  }
+  .img-edena {
+    width: 330px;
+    height: 295px;
+  }
+  .nft-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .nft-item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .discovery-container {
+    padding: 0 60px;
+  }
+
+  .see-all {
+    right: 62px;
+  }
+  .nft-item-astro {
+    display: block;
+  }
+  .img-galaxy,
+  .img-edena,
+  .img-astro {
+    width: 367px;
+    height: 296px;
+  }
+  .card {
+    max-width: 367px;
+  }
+  .card:hover,
+  .card:focus {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .nft-item {
+    flex-basis: calc((100% - 30px) / 3);
+  }
+  .text-card-nft,
+  .nft-avatar {
+    display: block;
+  }
+  .text-card-nft {
+    white-space: nowrap;
+  }
+  .avatar-of-card,
+  .text-card {
+    display: none;
+  }
+}
