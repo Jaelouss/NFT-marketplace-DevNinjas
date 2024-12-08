@@ -4,7 +4,7 @@
       rgba(162, 89, 255, 0) 0%,
       #a259ff 100%
     ),
-    url(../../img/mob/home-page/mashrooms/Screen=Mobile.webp);
+    url(/img/mob/home-page/mashrooms/Screen=Mobile.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,7 +18,7 @@
         rgba(162, 89, 255, 0) 0%,
         #a259ff 100%
       ),
-      url(../../img/mob/home-page/mashrooms/Screen=Mobile-@2x.webp);
+      url(/img/mob/home-page/mashrooms/Screen=Mobile-@2x.webp);
   }
 }
 .avatar-link {
@@ -54,14 +54,15 @@
 }
 
 .time {
-  width: 100%;
   max-width: 255px;
   white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
 }
 
 .timing {
   display: flex;
-  gap: 38px;
+  justify-content: space-between;
   margin-top: 5px;
 }
 .timing-item {
@@ -92,6 +93,9 @@
   text-align: center;
   color: #2b2b2b;
 }
+.dots {
+  font-size: 28px;
+}
 
 @media only screen and (min-width: 320px) {
   .mashrooms {
@@ -100,7 +104,7 @@
         rgba(162, 89, 255, 0) 0%,
         #a259ff 100%
       ),
-      url(../../img/tab/home-page/mashrooms/Screen=Tablet.webp);
+      url(/img/mob/home-page/mashrooms/Screen=Mobile.webp);
   }
 }
 
@@ -112,7 +116,7 @@
         rgba(162, 89, 255, 0) 0%,
         #a259ff 100%
       ),
-      url(../../img/tab/home-page/mashrooms/Screen=Tablet.webp);
+      url(/img/tab/home-page/mashrooms/Screen=Tablet.webp);
   }
   @media only screen and (min-resolution: 2dppx) {
     .mashrooms {
@@ -121,7 +125,7 @@
           rgba(162, 89, 255, 0) 0%,
           #a259ff 100%
         ),
-        url(../../img/tab/home-page/mashrooms/Screen=Tablet-@2x.webp);
+        url(/img/tab/home-page/mashrooms/Screen=Tablet-@2x.webp);
     }
   }
   .mashrooms-container {
@@ -159,7 +163,7 @@
         rgba(162, 89, 255, 0) 0%,
         #a259ff 100%
       ),
-      url(../../img/pc/home-page/mashrooms/Screen-deckstop.webp);
+      url(/img/pc/home-page/mashrooms/Screen-deckstop.webp);
   }
   @media only screen and (min-resolution: 2dppx) {
     .mashrooms {
@@ -168,7 +172,7 @@
           rgba(162, 89, 255, 0) 0%,
           #a259ff 100%
         ),
-        url(../../img/pc/home-page/mashrooms/Screen-deckstop-@2x.webp);
+        url(/img/pc/home-page/mashrooms/Screen-deckstop-@2x.webp);
     }
   }
   .title-mashrooms {
