@@ -17,7 +17,9 @@
 }
 
 .hiw-card {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 20px;
     padding: 20px;
     background-color: #3b3b3b;
@@ -25,8 +27,10 @@
     height: 157px;
 }
 
-.hiw-svg {
-    position: absolute;
+.hiw-img {
+    display: block;
+    /* position: absolute; */
+    width: 100px;
 }
 
 .hiw-card-title {
