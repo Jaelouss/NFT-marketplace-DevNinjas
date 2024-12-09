@@ -7,17 +7,12 @@
   gap: 10px;
 }
 .creators-h2 {
-  font-weight: 600;
   font-size: 28px;
   line-height: 1.4;
-  text-transform: capitalize;
-  color: #fff;
 }
 .creators-p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
-  color: #fff;
 }
 .creators-h-wrap + a,
 .creators-ul > li:nth-child(n + 6) {
@@ -69,13 +64,6 @@
   flex-direction: column;
   row-gap: 5px;
 }
-.creators-ul h3 {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 1.4;
-  text-transform: capitalize;
-  color: #fff;
-}
 .creators-sale-div {
   display: flex;
   flex-direction: row;
@@ -87,10 +75,6 @@
 }
 .creators-link {
   font-weight: 600;
-  font-size: 16px;
-  line-height: 1.4;
-  text-align: center;
-  color: #fff;
   padding: 19px 84px;
   border: 2px solid #a259ff;
   border-radius: 20px;
