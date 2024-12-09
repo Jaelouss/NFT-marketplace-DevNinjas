@@ -197,26 +197,83 @@
   </div>
 </section>
 
-
 <section>
   <div class="container">
-    <ul>
-      <li>
-        <img src="" alt="" />
+    <ul class="astronaut-list">
+      <li class="astronaut-card-img">
+        <picture>
+          <source
+            srcset="
+              /img/mob/how-it-work/mob-astronaut.webp    1x,
+              /img/mob/how-it-work/mob-astronaut@2x.webp 2x
+            "
+            type="image/webp"
+            media="(max-width: 833px)"
+          />
+          <source
+            srcset="
+              /img/tab/how-it-work/tab-astronaut.webp    1x,
+              /img/tab/how-it-work/tab-astronaut@2x.webp 2x
+            "
+            type="image/webp"
+            media="(max-width: 1279px)"
+          />
+          <source
+            srcset="
+              /img/pc/how-it-work/pc-astronaut.webp    1x,
+              /img/pc/how-it-work/pc-astronaut@2x.webp 2x
+            "
+            type="image/webp"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              /img/mob/how-it-work/mob-astronaut.png    1x,
+              /img/mob/how-it-work/mob-astronaut@2x.png 2x
+            "
+            type="image/png"
+            media="(max-width: 833px)"
+          />
+          <source
+            srcset="
+              /img/tab/how-it-work/tab-astronaut.png    1x,
+              /img/tab/how-it-work/tab-astronaut@2x.png 2x
+            "
+            type="image/png"
+            media="(max-width: 1279px)"
+          />
+          <source
+            srcset="
+              /img/pc/how-it-work/pc-astronaut.png    1x,
+              /img/pc/how-it-work/pc-astronaut@2x.png 2x
+            "
+            type="image/png"
+            media="(min-width: 1280px)"
+          />
+          <img src="/img/mob/how-it-work/mob-astronaut.png" alt="astronaut" />
+        </picture>
+      </li>
+      <li class="astronaut-card-title">
+        <h2 class="astronaut-title">Join our weekly digest</h2>
+        <p class="astronaut-text">
+          Get exclusive promotions & updates straight to your inbox.
+        </p>
       </li>
       <li>
-        <h2>Join our weekly digest</h2>
-        <p>Get exclusive promotions & updates straight to your inbox.</p>
-      </li>
-      <li>
-        <input
-          class=""
-          type="email"
-          name="email"
-          placeholder="example@gmail.com"
-          required
-        />
-        <button class="" type="button"></button>
+        <form action="">
+          <input
+            class="astronaut-input"
+            type="email"
+            name="email"
+            placeholder="Enter Your Email Address"
+            required
+          />
+          <button class="astronaut-button" type="button">
+            <svg class="astronaut-button-icon" width ="20" height ="20">
+                <use href="../../img/icons.svg#button-icon"></use>
+            </svg>
+            Subscribe</button>
+        </form>
       </li>
     </ul>
   </div>
