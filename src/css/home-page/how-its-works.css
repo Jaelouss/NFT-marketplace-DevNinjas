@@ -17,20 +17,31 @@
 }
 
 .hiw-card {
-    /* position: relative; */
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
+    gap: 20px;
     border-radius: 20px;
     padding: 20px;
     background-color: #3b3b3b;
-    width: 315px;
-    height: 157px;
+    flex-direction: row-reverse;
+}
+
+.hiw-picture-wrapp {
+    position: absolute;
+    top: -15px;
+    left: -15px;
 }
 
 .hiw-img {
-    display: block;
-    /* position: absolute; */
-    width: 100px;
+    
+    /* display: block;
+    max-width: 100px;
+    height: 100px; */
+}
+
+.hiw-card-wrapp {
+    width: 155px;
+   
 }
 
 .hiw-card-title {
