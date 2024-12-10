@@ -218,4 +218,8 @@
     line-height: 1.6;
     text-transform: capitalize;
   }
+  .hero-soc-link-icon {
+    width: 32px;
+    height: 32px;
+  }
 }
