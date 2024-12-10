@@ -74,6 +74,7 @@
   text-align: center;
   color: #fff;
   font-weight: 600;
+  width: 100%;
   display: flex;
   grid-area: 12px;
   align-items: center;
