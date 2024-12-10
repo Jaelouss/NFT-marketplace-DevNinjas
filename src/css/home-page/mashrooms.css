@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
+  max-width: 375px;
   margin: 0 auto;
 }
 @media screen and (min-resolution: 2dppx) {
@@ -21,6 +21,9 @@
       url(/img/mob/home-page/mashrooms/Screen=Mobile-@2x.webp);
   }
 }
+.mashrooms-container {
+  margin-top: 120px;
+}
 .avatar-link {
   display: flex;
   align-items: flex-start;
@@ -32,7 +35,7 @@
   width: 151px;
   height: 44px;
   background: #3b3b3b;
-  margin-top: 120px;
+
   margin-bottom: 30px;
 }
 .clock-box {
@@ -97,20 +100,10 @@
   font-size: 28px;
 }
 
-@media only screen and (min-width: 320px) {
-  .mashrooms {
-    background-image: linear-gradient(
-        180deg,
-        rgba(162, 89, 255, 0) 0%,
-        #a259ff 100%
-      ),
-      url(/img/mob/home-page/mashrooms/Screen=Mobile.webp);
-  }
-}
-
 @media only screen and (min-width: 834px) {
   .mashrooms {
     padding: 60px 0;
+    max-width: 834px;
     background-image: linear-gradient(
         180deg,
         rgba(162, 89, 255, 0) 0%,
@@ -133,12 +126,10 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-
+    margin-top: 360px;
     padding: 0 82px;
   }
-  .avatar-link {
-    margin-top: 360px;
-  }
+
   .clock-box {
     position: absolute;
     right: 82px;
@@ -157,6 +148,7 @@
 
 @media only screen and (min-width: 1280px) {
   .mashrooms {
+    max-width: 1280px;
     padding: 60px 0;
     background-image: linear-gradient(
         180deg,
