@@ -78,14 +78,17 @@
     margin-bottom: 16px;
 }
 
-/* .astronaut-input::placeholder {
+.astronaut-input::placeholder {
     font-family:"Work Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     color: #2b2b2b;
-} */
+}
 
+.astronaut-input:focus {
+    outline: none;
+}
 
 .astronaut-button {
     display: flex;
