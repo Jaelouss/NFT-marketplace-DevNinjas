@@ -14,7 +14,7 @@
   flex-direction: column;
   gap: 20px;
   padding-top: 40px;
-  margin-bottom: 40px;
+  
 }
 
 .hiw-card {
@@ -25,10 +25,6 @@
   background-color: #3b3b3b;
 }
 
-.hiw-svg {
-  width: 100px;
-  height: 100px;
-}
 
 .hiw-card-title {
   font-size: 16px;
@@ -55,6 +51,16 @@
     height: 320px;
   }
 
+    .hiw-svg-div {
+      display: flex;
+      justify-content: center;
+    }
+
+    .hiw-svg-icon-card {
+      width: 160px;
+      height: 160px;
+    }
+
   .hiw-card-wrapp {
     align-content: end;
     align-items: center;
@@ -63,7 +69,9 @@
 }
 
 
-
+.astronaut-list {
+  margin-top: 80px;
+}
 
 .astronaut-card-img {
   margin-bottom: 30px;
@@ -90,6 +98,7 @@
   padding: 16px 20px;
   width: 315px;
   height: 46px;
+  margin-top: 40px;
   margin-bottom: 16px;
 }
 
@@ -146,4 +155,12 @@
   .astronaut-input {
     width: 300px;
   }
+
+  .astronaut-wrapper-img {
+    width: 300px;
+  }
+
+    .astronaut-button {
+      width: 300px;
+    }
 }
