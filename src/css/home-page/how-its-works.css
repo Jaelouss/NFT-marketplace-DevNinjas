@@ -132,7 +132,7 @@
   margin-right: 12px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 833px) {
   .astronaut-list {
     display: flex;
     flex-shrink: unset;
