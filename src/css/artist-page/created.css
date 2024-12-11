@@ -1,8 +1,6 @@
 .created-section{
     padding: 10px 0 0 0;
-    /* height: 70px;
-    margin: 10px; */
-}
+    }
 .created-class{
     background-color: #3b3b3b;
     padding-top: 80px;
@@ -26,22 +24,11 @@ color: #fff;
     justify-content: space-between;    
 }
 .created-menu-link{
-    font-weight: 600;
-    /* font-size: 16px;
-    line-height: 1.4;
-    text-transform: capitalize;
-    text-align: center;
-    color: #858584;     */
-    
-}
-.created-menu-item{
-    /* border: 2px solid #fff; */    
+    font-weight: 600;  
 }
 .created-menu-span-number{
     border-radius: 20px;
     padding: 5px 10px;
-    /* width: 40px; */
-    /* height: 32px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4;
@@ -82,8 +69,6 @@ background: #858584;
     gap: 5px;
     width: 275px;
     margin-bottom: 25px;
-    /* border: 2px solid #fff; */
-    
 }
 .created-price-bid{
     display: flex;
@@ -92,7 +77,6 @@ background: #858584;
     flex-direction: row;
     gap: 0px;
     width: 275px;
-    /* border: 2px solid #fff; */
 }
 
 .created-price{
@@ -100,7 +84,6 @@ display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
-/* gap: 8px; */
 padding: 0px 21px 0px 0px;
 width: 137px;
 color: #858584;
@@ -110,13 +93,8 @@ display: flex;
 align-items: flex-end;
 justify-content: center;
 flex-direction: column;
-/* gap: 8px; */
 width: 137px;
-/* gap: 8px; */
 color: #858584;
-}
-.created-pict-title{
-
 }
 .created-price-p{
     font-size: 12px;
@@ -131,17 +109,13 @@ color: #858584;
 .create-space-h4{
     display:inline;    
     margin-right: 12px;
-    /* flex-direction: ; */
+    height: 24px;
 }
-.areated-avatar-pict{
+.created-avatar-pict{
     display: flex;
+    height: 24px;
 
 }
-/* img [src^="../../img/pc"] {
-  visibility: hidden;
-  width: 0;
-  height: 0;
-} */
 .create-tablet,
 .create-pc
 {
@@ -151,7 +125,7 @@ color: #858584;
 }
 
  /* ======================== 834 ================================ */
- @media (width>=834px) {
+@media (width>=834px) {
 .created-menu-span-number {
     width: 40px;
     visibility: visible;
@@ -170,7 +144,6 @@ color: #858584;
     justify-content: space-between;
 }
     .created-menu-btn {
-    /* max-width: 226.67px;*/
     width: 227px;
 }
 .created-information {
@@ -200,7 +173,6 @@ color: #858584;
         position: static;
     }
     .created-menu-btn {
-        /* max-width: 226.67px;*/
         width: 350px;
     }
 .created-menu-link {
