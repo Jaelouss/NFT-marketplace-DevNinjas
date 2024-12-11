@@ -14,10 +14,10 @@
   flex-direction: column;
   gap: 20px;
   padding-top: 40px;
+  margin-bottom: 40px;
 }
 
 .hiw-card {
-  position: relative;
   display: flex;
   gap: 20px;
   border-radius: 20px;
@@ -28,20 +28,6 @@
 .hiw-svg {
   width: 100px;
   height: 100px;
-}
-
-.hiw-picture-wrapp {
-}
-
-.hiw-img {
-  /* position: absolute; */
-  /* top: 25%;
-        left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  /* width: 160px; */
-}
-
-.hiw-card-wrapp {
 }
 
 .hiw-card-title {
@@ -75,6 +61,9 @@
     text-align: center;
   }
 }
+
+
+
 
 .astronaut-card-img {
   margin-bottom: 30px;
@@ -157,6 +146,4 @@
   .astronaut-input {
     width: 300px;
   }
-
-  
 }
