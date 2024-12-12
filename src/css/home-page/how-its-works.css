@@ -14,7 +14,6 @@
   flex-direction: column;
   gap: 20px;
   padding-top: 40px;
-  
 }
 
 .hiw-card {
@@ -24,7 +23,6 @@
   padding: 20px;
   background-color: #3b3b3b;
 }
-
 
 .hiw-card-title {
   font-size: 16px;
@@ -38,7 +36,7 @@
   line-height: 140%;
 }
 
-@media screen and (min-width: 833px) {
+@media screen and (min-width: 834px) {
   .hiw-list {
     flex-direction: row;
   }
@@ -47,19 +45,17 @@
     flex-direction: column;
     border-radius: 20px;
     padding: 10px 20px 30px 20px;
-    width: 210px;
-    height: 320px;
   }
 
-    .hiw-svg-div {
-      display: flex;
-      justify-content: center;
-    }
+  .hiw-svg-div {
+    display: flex;
+    justify-content: center;
+  }
 
-    .hiw-svg-icon-card {
-      width: 160px;
-      height: 160px;
-    }
+  .hiw-svg-icon-card {
+    width: 160px;
+    height: 160px;
+  }
 
   .hiw-card-wrapp {
     align-content: end;
@@ -68,6 +64,29 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .hiw-card {
+    width: 330px;
+    padding: 30px;
+  }
+
+  .hiw-list {
+    gap: 30px;
+  }
+
+  .hiw-card-title {
+    font-size: 22px;
+  }
+
+  .hiw-card-text {
+    font-size: 16px;
+  }
+
+  .hiw-svg-icon-card {
+    width: 250px;
+    height: 250px;
+  }
+}
 
 .astronaut-list {
   margin-top: 80px;
@@ -132,14 +151,12 @@
   margin-right: 12px;
 }
 
-@media screen and (min-width: 833px) {
+@media screen and (min-width: 834px) {
   .astronaut-list {
     display: flex;
     flex-shrink: unset;
     border-radius: 20px;
     padding: 40px 30px;
-    width: 690px;
-    height: 360px;
     background-color: #3b3b3b;
   }
 
@@ -160,7 +177,52 @@
     width: 300px;
   }
 
-    .astronaut-button {
-      width: 300px;
+  .astronaut-button {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .astronaut-list {
+    padding: 60px;
+  }
+    .astronaut-card-title {
+      margin-left: 0;
     }
+
+  .astronaut-wrapper-img {
+    margin-right: 80px;
+  }
+
+  .astronaut-title {
+    font-size: 38px;
+    line-height: 120%;
+  }
+
+  .astronaut-text {
+    font-size: 22px;
+    line-height: 160%;
+  }
+
+  .astronaut-form {
+    display: flex;
+  }
+
+  .astronaut-input {
+    position: relative;
+    border-radius: 20px;
+    padding: 16px 0px 16px 20px;
+    width: 425px;
+    height: 60px;
+  }
+
+  .astronaut-button {
+    display: flex;
+    position: absolute;
+    border-radius: 20px;
+    padding: 0px 50px;
+    width: 211px;
+    height: 60px;
+    transform: translateY(65%);
+  }
 }
