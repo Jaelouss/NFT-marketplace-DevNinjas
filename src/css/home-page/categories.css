@@ -1,0 +1,72 @@
+.categories-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.categories-card-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.categories-card-item {
+  border-radius: 20px;
+  background: #3b3b3b;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.categories-card-item:hover {
+  transform: scale(0.95);
+}
+
+.categories-card-item a {
+  display: block;
+}
+
+.categories-img {
+  width: 147px;
+  height: 142px;
+  margin: 0 auto;
+}
+
+.categories-card-tex {
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 20px 20px 25px;
+}
+
+/* ---------------------------  Media Tablet  ------------------------------- */
+@media screen and (min-width: 834px) {
+  .categories-card-list {
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .categories-img {
+    width: 150px;
+    height: 142px;
+  }
+}
+
+/* -------------------------------  Media Desktop  --------------------------------- */
+@media screen and (min-width: 1280px) {
+  .categories-title {
+    font-size: 38px;
+    margin-bottom: 60px;
+  }
+  .categories-card-list {
+    gap: 30px;
+  }
+  .categories-img {
+    width: 240px;
+    height: 240px;
+  }
+  .categories-card-item {
+    text-align: center;
+  }
+  .categories-card-tex {
+    font-size: 22px;
+    padding: 20px 30px 25px;
+  }
+}
