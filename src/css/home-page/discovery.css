@@ -1,5 +1,10 @@
+#discovery {
+  padding-bottom: 60px;
+}
+
 .title-discovery {
   margin-bottom: 10px;
+  font-size: 28px;
 }
 .subtitle-discovery {
   margin-bottom: 40px;
@@ -54,11 +59,9 @@
   gap: 12px;
   justify-content: center;
   align-items: center;
-  min-height: 60px;
-  width: 100%;
   flex-direction: row;
-  margin: 0 auto;
-  font-size: 16px;
+  padding: 19px 114px;
+  white-space: nowrap;
 }
 .h3-link {
   font-size: 16px;
