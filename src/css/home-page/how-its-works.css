@@ -89,6 +89,9 @@
   }
 }
 
+
+
+
 .astronaut-list {
   margin-top: 80px;
 }
@@ -170,6 +173,7 @@
 
 @media screen and (min-width: 1280px) {
   .astronaut-list {
+    align-items: center;
     padding: 60px;
     gap: 80px;
   }
@@ -180,6 +184,7 @@
 
   .astronaut-card-title {
     margin-left: 0;
+    
   }
 
   .astronaut-wrapper-img {
