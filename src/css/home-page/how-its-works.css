@@ -3,6 +3,10 @@
   line-height: 140%;
   margin-bottom: 10px;
 }
+.hiw-svg-size {
+  width: 100px;
+  height: 100px;
+}
 
 .hiw-text {
   font-size: 16px;
@@ -22,7 +26,6 @@
   border-radius: 20px;
   padding: 20px;
   background-color: #3b3b3b;
-  
 }
 
 .hiw-card-title {
@@ -53,11 +56,6 @@
     justify-content: center;
   }
 
-  .hiw-svg-icon-card {
-    width: 160px;
-    height: 160px;
-  }
-
   .hiw-card-wrapp {
     align-content: end;
     align-items: center;
@@ -82,15 +80,7 @@
   .hiw-card-text {
     font-size: 16px;
   }
-
-  .hiw-svg-icon-card {
-    width: 250px;
-    height: 250px;
-  }
 }
-
-
-
 
 .astronaut-list {
   margin-top: 80px;
@@ -145,6 +135,11 @@
 }
 
 @media screen and (min-width: 834px) {
+  .hiw-svg-size {
+    width: 150px;
+    height: 150px;
+  }
+
   .astronaut-list {
     display: flex;
     flex-shrink: unset;
@@ -172,6 +167,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .hiw-svg-size {
+    width: 250px;
+    height: 250px;
+  }
   .astronaut-list {
     align-items: center;
     padding: 60px;
@@ -184,7 +183,6 @@
 
   .astronaut-card-title {
     margin-left: 0;
-    
   }
 
   .astronaut-wrapper-img {
