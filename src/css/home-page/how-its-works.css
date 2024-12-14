@@ -11,13 +11,14 @@
 .hiw-text {
   font-size: 16px;
   line-height: 140%;
+  margin-bottom: 40px;
 }
 
 .hiw-list {
+  margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-top: 40px;
 }
 
 .hiw-card {
@@ -42,8 +43,8 @@
 
 @media screen and (min-width: 834px) {
   .hiw-svg-size {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
   }
 
   .hiw-list {
@@ -69,6 +70,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .hiw-svg-size {
+    width: 250px;
+    height: 250px;
+  }
   .hiw-card {
     width: 330px;
     padding: 30px;
@@ -76,6 +81,7 @@
 
   .hiw-list {
     gap: 30px;
+    margin-bottom: 120px;
   }
 
   .hiw-card-title {
@@ -85,10 +91,6 @@
   .hiw-card-text {
     font-size: 16px;
   }
-}
-
-.astronaut-list {
-  margin-top: 80px;
 }
 
 .astronaut-card-img {
@@ -114,7 +116,7 @@
 .astronaut-input {
   border: 1px solid #858584;
   border-radius: 20px;
-  padding: 12px 98px 12px 20px;
+  padding: 12px 101px 12px 20px;
   margin-bottom: 16px;
 }
 
@@ -140,22 +142,20 @@
 }
 
 @media screen and (min-width: 834px) {
-  .hiw-svg-size {
-    width: 250px;
-    height: 250px;
-  }
-
   .astronaut-list {
     display: flex;
-    flex-shrink: unset;
+    gap: 30px;
     border-radius: 20px;
     padding: 40px 30px;
     background-color: #3b3b3b;
   }
 
+  .width-li {
+    width: 50%;
+  }
+
   .astronaut-card-title {
     margin-bottom: 0;
-    margin-left: 30px;
   }
 
   .astronaut-card-img {
@@ -176,10 +176,6 @@
     align-items: center;
     padding: 60px;
     gap: 80px;
-  }
-
-  .width-li {
-    width: 50%;
   }
 
   .astronaut-card-title {
@@ -209,6 +205,7 @@
     padding: 16px 0px 16px 20px;
     width: 425px;
     height: 60px;
+    margin-bottom: 0;
   }
 
   .astronaut-button {
