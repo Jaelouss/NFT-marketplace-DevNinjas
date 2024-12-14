@@ -41,6 +41,11 @@
 }
 
 @media screen and (min-width: 834px) {
+  .hiw-svg-size {
+    width: 150px;
+    height: 150px;
+  }
+
   .hiw-list {
     flex-direction: row;
   }
@@ -136,8 +141,8 @@
 
 @media screen and (min-width: 834px) {
   .hiw-svg-size {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
   }
 
   .astronaut-list {
@@ -167,10 +172,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hiw-svg-size {
-    width: 250px;
-    height: 250px;
-  }
   .astronaut-list {
     align-items: center;
     padding: 60px;
