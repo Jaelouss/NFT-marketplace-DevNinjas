@@ -1,1 +1,244 @@
- 
+.nft-hero-image {
+  background-image: url('/img/mob/nft-page/hero/place-holder.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-resolution: 2dppx),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .nft-hero-image {
+    background-image: url('/img/mob/nft-page/hero/place-holder-2x.jpg');
+  }
+}
+
+.nft-hero-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.nft-tx-minted {
+  font-size: 16px;
+  color: #858584;
+  margin-bottom: 20px;
+}
+
+.nft-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #858584;
+  margin-bottom: 10px;
+}
+
+.nft-created {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.nft-created-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.nft-tx {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.nft-tx-description {
+  margin-bottom: 20px;
+}
+
+.nft-details {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.nft-details-container {
+  margin-bottom: 20px;
+}
+
+.nft-details-icon {
+  fill: #858584;
+  width: 24px;
+  height: 24px;
+}
+
+.nft-tags {
+  margin-bottom: 20px;
+}
+
+.nft-tags-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nft-tags-item {
+  background-color: #3b3b3b;
+  padding: 12px 30px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.nft-tags-tx {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.clock-box {
+  box-sizing: border-box;
+  border-radius: 20px;
+  max-width: 315px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background-color: rgba(59, 59, 59, 0.5);
+  padding: 30px 30px;
+  margin-bottom: 20px;
+}
+
+.clock-text {
+  font-size: 12px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.time {
+  width: 100%;
+  max-width: 255px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.timing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.nft-clock-btn {
+  background-color: #a259ff;
+  padding: 19px 0;
+  border: none;
+  border-radius: 20px;
+  width: 255px;
+}
+
+.nft-clock-btn-tx {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 834px) {
+  .nft-hero-image {
+    background-image: url('/img/tab/nft-page/hero/place-holder.jpg');
+    height: 420px;
+    max-width: 1279px;
+  }
+
+  @media screen and (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+    .nft-hero-image {
+      background-image: url('/img/tab/nft-page/hero/place-holder-2x.jpg');
+    }
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .nft-tx-container {
+    max-width: 365px;
+  }
+
+  .nft-hero-title {
+    font-size: 38px;
+  }
+
+  .nft-tx-minted {
+    margin-bottom: 30px;
+  }
+
+  .nft-created {
+    margin-bottom: 30px;
+  }
+
+  .nft-created-icon {
+    content: url('/img/tab/nft-page/hero/created-icon-tab.webp');
+  }
+
+  .nft-tx-description {
+    margin-bottom: 30px;
+  }
+
+  .clock-box {
+    position: absolute;
+    top: 0;
+    right: 72px;
+    width: 295px;
+  }
+
+  .nft-clock-btn {
+    width: 235px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .nft-hero-image {
+    background-image: url('/img/pc/nft-page/hero/place-holder.jpg');
+    height: 420px;
+    max-width: none;
+  }
+
+  @media screen and (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+    .nft-hero-image {
+      background-image: url('/img/pc/nft-page/hero/place-holder-2x.jpg');
+    }
+  }
+
+  .nft-tx-container {
+    max-width: 605px;
+  }
+
+  .nft-hero-title {
+    font-size: 51px;
+  }
+
+  .nft-tx-minted {
+    font-size: 22px;
+  }
+
+  .nft-title {
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .nft-tx {
+    font-size: 22px;
+    line-height: 1.6;
+  }
+
+  .nft-tags-list {
+    flex-direction: row;
+  }
+
+  .clock-box {
+    position: absolute;
+    top: 0;
+    right: 115px;
+    width: 280px;
+  }
+}
