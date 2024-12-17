@@ -1,3 +1,7 @@
+.hero-nft {
+  padding-top: 0;
+}
+
 .nft-hero-image {
   background-image: url('/img/mob/nft-page/hero/place-holder.jpg');
   background-repeat: no-repeat;
