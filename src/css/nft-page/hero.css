@@ -4,6 +4,7 @@
 
 .font-s-16 {
   font-size: 16px;
+  line-height: 1.4;
 }
 
 .font-w-600 {
@@ -33,12 +34,24 @@
 
 .nft-hero-title {
   font-size: 28px;
+  line-height: 1.4;
 }
 
 .nft-tx-minted {
   color: #858584;
 }
-
+.timing-item {
+  font-size: 12px;
+  line-height: 1.1;
+  text-align: center;
+}
+.dots {
+  font-size: 28px;
+}
+.mash-pos-rel {
+  position: relative;
+  left: 6px;
+}
 .nft-title {
   font-family: 'Space Mono', sans-serif;
   font-weight: 400;
