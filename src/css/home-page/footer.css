@@ -1,0 +1,75 @@
+.footer-hiw {
+  background-color: #3b3b3b;
+  padding: 40px 30px;
+}
+
+.hiw-footer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.hiw-footer-item {
+  margin-bottom: 30px;
+  column-gap: 20px;
+}
+
+.footer-hiw-logo {
+  width: 243px;
+  height: 32px;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 140%;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.footer-link-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-item {
+  font-family: 'Space Mono', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-link-icon {
+  fill: #858584;
+}
+
+.footer-text-link {
+  display: block;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ccc;
+}
+
+.footer-before {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-copyright {
+  padding-top: 20px;
+  border-top: 1px solid #858584;
+  width: 315px;
+  height: 0px;
+  display: block;
+}
+
+.footer-copyright {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  color: #ccc;
+}
