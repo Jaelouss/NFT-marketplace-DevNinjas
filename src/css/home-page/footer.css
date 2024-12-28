@@ -1,3 +1,31 @@
+.astronaut-button {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 12px 102px;
+  background-color: #a259ff;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+}
+@media screen and (min-width: 834px) {
+  .astronaut-button {
+    padding: 12px 95px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .astronaut-button {
+    display: flex;
+    position: absolute;
+    border-radius: 20px;
+    padding: 20px 50px;
+    top: 0;
+    left: 51%;
+  }
+}
+
 .footer-hiw {
   padding: 40px 30px;
 }
