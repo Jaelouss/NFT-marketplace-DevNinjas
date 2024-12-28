@@ -192,9 +192,8 @@
 
   .astronaut-input {
     border-radius: 20px;
-    padding: 16px 0px 16px 20px;
+    padding: 19px 0px 19px 20px;
     width: 425px;
-    height: 60px;
     margin-bottom: 0;
   }
 
@@ -202,7 +201,7 @@
     display: flex;
     position: absolute;
     border-radius: 20px;
-    padding: 19px 50px;
+    padding: 20px 50px;
     top: 0;
     left: 51%;
   }
