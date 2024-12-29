@@ -11,10 +11,9 @@
   justify-content: center;
   background-color: #2b2b2b;
   margin-bottom: 40px;
+  padding-top: 10px;
 }
-.nft-menu-item {
-  margin-top: 10px;
-}
+
 .nft-menu-btn {
   background-color: inherit;
   color: #858584;
@@ -22,10 +21,10 @@
   font-weight: 600;
 }
 .nft-padding-1 {
-  padding: 19px 117.5px;
+  padding: 19px 59.25px;
 }
 .nft-padding-2 {
-  padding: 14px 97.5px;
+  padding: 19px 34.25px;
 }
 .nft-menu-btn:hover,
 .nft-menu-btn:focus {
@@ -71,19 +70,19 @@
 .space-span-card {
   font-size: 12px;
   line-height: 1.1;
+  margin-bottom: 8px;
 }
 .space-p-card {
   font-size: 12px;
   line-height: 1.1;
 }
+
 .card-info {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8px;
 }
-.card-info-two {
-  display: flex;
-  justify-content: space-between;
+.info-item-two {
+  text-align: right;
 }
 .avatar-of-card {
   width: 24px;
@@ -103,10 +102,10 @@
   }
 
   .nft-padding-1 {
-    padding: 18.5px 53px;
+    padding: 19px 117.5px;
   }
   .nft-padding-2 {
-    padding: 18.5px 60px;
+    padding: 19px 97.5px;
   }
   .nft-marketplace-item-tab {
     display: block;
@@ -118,9 +117,6 @@
     flex-wrap: wrap;
     gap: 30px 30px;
   }
-  /* .nft-marketplace-item {
-    flex-basis: calc((100% - 30px) / 2);
-  } */
 
   .nft-marketplace-img {
     max-width: 325px;

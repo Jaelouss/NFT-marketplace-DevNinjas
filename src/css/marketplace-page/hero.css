@@ -1,12 +1,18 @@
-.container-hero-marketplace {
-  margin-top: 40px;
+#marketplace-page-hero {
+  padding: 40px 30px;
 }
 .hero-title {
   font-size: 28px;
+  line-height: 1.4;
   margin-bottom: 10px;
 }
 .hero-subtitle {
+  font-size: 16px;
+  line-height: 1.4;
   margin-bottom: 30px;
+}
+.form {
+  position: relative;
 }
 .search-input {
   border: 1px solid #3b3b3b;
@@ -21,11 +27,10 @@
 .search-input::placeholder {
   color: #858584;
 }
-.input-wrapper {
-  position: relative;
-}
 
 .btn-search {
+  display: flex;
+  place-items: center;
   background: none;
   border: none;
   position: absolute;
@@ -37,8 +42,8 @@
   fill: #fff;
 }
 @media only screen and (min-width: 834px) {
-  .container-hero-marketplace {
-    margin-top: 60px;
+  #marketplace-page-hero {
+    padding: 60px 77px;
   }
   .hero-title {
     font-weight: 600;
@@ -47,8 +52,8 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  .container-hero-marketplace {
-    margin-top: 80px;
+  #marketplace-page-hero {
+    padding: 80px 115px;
   }
   .hero-title {
     font-size: 51px;
